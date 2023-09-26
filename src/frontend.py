@@ -21,7 +21,7 @@ st.set_page_config(layout="wide")
 current_date = datetime.strptime('2023-09-20 10:59:59', '%Y-%m-%d %H:%M:%S')
 #current_date = pd.to_datetime(datetime.utcnow()).floor('H')
 st.title(f'Taxi demand prediction 🚕')
-st.header(f'{current_date} UTC')
+#st.header(f'{current_date} UTC')
 
 progress_bar = st.sidebar.header('⚙️ Working Progress')
 progress_bar = st.sidebar.progress(0)
